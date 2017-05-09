@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2369C4F1EBC1C410088E4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C4E1EBC1C410088E4C3 /* main.m */; };
+		A2369C521EBC1C410088E4C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C511EBC1C410088E4C3 /* AppDelegate.m */; };
+		A2369C581EBC1C410088E4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2369C561EBC1C410088E4C3 /* Main.storyboard */; };
+		A2369C5A1EBC1C410088E4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2369C591EBC1C410088E4C3 /* Assets.xcassets */; };
+		A2369C5D1EBC1C410088E4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2369C5B1EBC1C410088E4C3 /* LaunchScreen.storyboard */; };
+		A2369C681EBC1C410088E4C3 /* STFCardPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C671EBC1C410088E4C3 /* STFCardPlayTests.m */; };
+		A2369C731EBC1C410088E4C3 /* STFCardPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C721EBC1C410088E4C3 /* STFCardPlayUITests.m */; };
+		A2369C821EBC1DDD0088E4C3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C811EBC1DDD0088E4C3 /* Card.m */; };
+		A2369C851EBC1DEC0088E4C3 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C841EBC1DEC0088E4C3 /* Deck.m */; };
+		A2369C881EBC66600088E4C3 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C871EBC66600088E4C3 /* PlayingCard.m */; };
+		A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */; };
+		A2369C911EBC81D60088E4C3 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C901EBC81D60088E4C3 /* PlayVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2369C641EBC1C410088E4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2369C421EBC1C410088E4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2369C491EBC1C410088E4C3;
+			remoteInfo = STFCardPlay;
+		};
+		A2369C6F1EBC1C410088E4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2369C421EBC1C410088E4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2369C491EBC1C410088E4C3;
+			remoteInfo = STFCardPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2369C4A1EBC1C410088E4C3 /* STFCardPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFCardPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2369C4E1EBC1C410088E4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2369C501EBC1C410088E4C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2369C511EBC1C410088E4C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2369C571EBC1C410088E4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2369C591EBC1C410088E4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2369C5C1EBC1C410088E4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2369C5E1EBC1C410088E4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2369C631EBC1C410088E4C3 /* STFCardPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFCardPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2369C671EBC1C410088E4C3 /* STFCardPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFCardPlayTests.m; sourceTree = "<group>"; };
+		A2369C691EBC1C410088E4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2369C6E1EBC1C410088E4C3 /* STFCardPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFCardPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2369C721EBC1C410088E4C3 /* STFCardPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFCardPlayUITests.m; sourceTree = "<group>"; };
+		A2369C741EBC1C410088E4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2369C801EBC1DDD0088E4C3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A2369C811EBC1DDD0088E4C3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		A2369C831EBC1DEC0088E4C3 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		A2369C841EBC1DEC0088E4C3 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		A2369C861EBC66600088E4C3 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		A2369C871EBC66600088E4C3 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		A2369C8C1EBC78760088E4C3 /* PlayerCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCardDeck.h; sourceTree = "<group>"; };
+		A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCardDeck.m; sourceTree = "<group>"; };
+		A2369C8F1EBC81D60088E4C3 /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
+		A2369C901EBC81D60088E4C3 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2369C471EBC1C410088E4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C601EBC1C410088E4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C6B1EBC1C410088E4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2369C411EBC1C410088E4C3 = {
+			isa = PBXGroup;
+			children = (
+				A2369C4C1EBC1C410088E4C3 /* STFCardPlay */,
+				A2369C661EBC1C410088E4C3 /* STFCardPlayTests */,
+				A2369C711EBC1C410088E4C3 /* STFCardPlayUITests */,
+				A2369C4B1EBC1C410088E4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2369C4B1EBC1C410088E4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2369C4A1EBC1C410088E4C3 /* STFCardPlay.app */,
+				A2369C631EBC1C410088E4C3 /* STFCardPlayTests.xctest */,
+				A2369C6E1EBC1C410088E4C3 /* STFCardPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2369C4C1EBC1C410088E4C3 /* STFCardPlay */ = {
+			isa = PBXGroup;
+			children = (
+				A2369C501EBC1C410088E4C3 /* AppDelegate.h */,
+				A2369C511EBC1C410088E4C3 /* AppDelegate.m */,
+				A2369C561EBC1C410088E4C3 /* Main.storyboard */,
+				A2369C591EBC1C410088E4C3 /* Assets.xcassets */,
+				A2369C5B1EBC1C410088E4C3 /* LaunchScreen.storyboard */,
+				A2369C5E1EBC1C410088E4C3 /* Info.plist */,
+				A2369C4D1EBC1C410088E4C3 /* Supporting Files */,
+				A2369C801EBC1DDD0088E4C3 /* Card.h */,
+				A2369C811EBC1DDD0088E4C3 /* Card.m */,
+				A2369C831EBC1DEC0088E4C3 /* Deck.h */,
+				A2369C841EBC1DEC0088E4C3 /* Deck.m */,
+				A2369C861EBC66600088E4C3 /* PlayingCard.h */,
+				A2369C871EBC66600088E4C3 /* PlayingCard.m */,
+				A2369C8C1EBC78760088E4C3 /* PlayerCardDeck.h */,
+				A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */,
+				A2369C8F1EBC81D60088E4C3 /* PlayVC.h */,
+				A2369C901EBC81D60088E4C3 /* PlayVC.m */,
+			);
+			path = STFCardPlay;
+			sourceTree = "<group>";
+		};
+		A2369C4D1EBC1C410088E4C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2369C4E1EBC1C410088E4C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2369C661EBC1C410088E4C3 /* STFCardPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2369C671EBC1C410088E4C3 /* STFCardPlayTests.m */,
+				A2369C691EBC1C410088E4C3 /* Info.plist */,
+			);
+			path = STFCardPlayTests;
+			sourceTree = "<group>";
+		};
+		A2369C711EBC1C410088E4C3 /* STFCardPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2369C721EBC1C410088E4C3 /* STFCardPlayUITests.m */,
+				A2369C741EBC1C410088E4C3 /* Info.plist */,
+			);
+			path = STFCardPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2369C491EBC1C410088E4C3 /* STFCardPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2369C771EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlay" */;
+			buildPhases = (
+				A2369C461EBC1C410088E4C3 /* Sources */,
+				A2369C471EBC1C410088E4C3 /* Frameworks */,
+				A2369C481EBC1C410088E4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STFCardPlay;
+			productName = STFCardPlay;
+			productReference = A2369C4A1EBC1C410088E4C3 /* STFCardPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2369C621EBC1C410088E4C3 /* STFCardPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2369C7A1EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlayTests" */;
+			buildPhases = (
+				A2369C5F1EBC1C410088E4C3 /* Sources */,
+				A2369C601EBC1C410088E4C3 /* Frameworks */,
+				A2369C611EBC1C410088E4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2369C651EBC1C410088E4C3 /* PBXTargetDependency */,
+			);
+			name = STFCardPlayTests;
+			productName = STFCardPlayTests;
+			productReference = A2369C631EBC1C410088E4C3 /* STFCardPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2369C6D1EBC1C410088E4C3 /* STFCardPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2369C7D1EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlayUITests" */;
+			buildPhases = (
+				A2369C6A1EBC1C410088E4C3 /* Sources */,
+				A2369C6B1EBC1C410088E4C3 /* Frameworks */,
+				A2369C6C1EBC1C410088E4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2369C701EBC1C410088E4C3 /* PBXTargetDependency */,
+			);
+			name = STFCardPlayUITests;
+			productName = STFCardPlayUITests;
+			productReference = A2369C6E1EBC1C410088E4C3 /* STFCardPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2369C421EBC1C410088E4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yinbake;
+				TargetAttributes = {
+					A2369C491EBC1C410088E4C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A2369C621EBC1C410088E4C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2369C491EBC1C410088E4C3;
+					};
+					A2369C6D1EBC1C410088E4C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2369C491EBC1C410088E4C3;
+					};
+				};
+			};
+			buildConfigurationList = A2369C451EBC1C410088E4C3 /* Build configuration list for PBXProject "STFCardPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2369C411EBC1C410088E4C3;
+			productRefGroup = A2369C4B1EBC1C410088E4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2369C491EBC1C410088E4C3 /* STFCardPlay */,
+				A2369C621EBC1C410088E4C3 /* STFCardPlayTests */,
+				A2369C6D1EBC1C410088E4C3 /* STFCardPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2369C481EBC1C410088E4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2369C5D1EBC1C410088E4C3 /* LaunchScreen.storyboard in Resources */,
+				A2369C5A1EBC1C410088E4C3 /* Assets.xcassets in Resources */,
+				A2369C581EBC1C410088E4C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C611EBC1C410088E4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C6C1EBC1C410088E4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2369C461EBC1C410088E4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2369C851EBC1DEC0088E4C3 /* Deck.m in Sources */,
+				A2369C911EBC81D60088E4C3 /* PlayVC.m in Sources */,
+				A2369C521EBC1C410088E4C3 /* AppDelegate.m in Sources */,
+				A2369C4F1EBC1C410088E4C3 /* main.m in Sources */,
+				A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */,
+				A2369C881EBC66600088E4C3 /* PlayingCard.m in Sources */,
+				A2369C821EBC1DDD0088E4C3 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C5F1EBC1C410088E4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2369C681EBC1C410088E4C3 /* STFCardPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2369C6A1EBC1C410088E4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2369C731EBC1C410088E4C3 /* STFCardPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2369C651EBC1C410088E4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2369C491EBC1C410088E4C3 /* STFCardPlay */;
+			targetProxy = A2369C641EBC1C410088E4C3 /* PBXContainerItemProxy */;
+		};
+		A2369C701EBC1C410088E4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2369C491EBC1C410088E4C3 /* STFCardPlay */;
+			targetProxy = A2369C6F1EBC1C410088E4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2369C561EBC1C410088E4C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2369C571EBC1C410088E4C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2369C5B1EBC1C410088E4C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2369C5C1EBC1C410088E4C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2369C751EBC1C410088E4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2369C761EBC1C410088E4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2369C781EBC1C410088E4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STFCardPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2369C791EBC1C410088E4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STFCardPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2369C7B1EBC1C410088E4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STFCardPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STFCardPlay.app/STFCardPlay";
+			};
+			name = Debug;
+		};
+		A2369C7C1EBC1C410088E4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STFCardPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STFCardPlay.app/STFCardPlay";
+			};
+			name = Release;
+		};
+		A2369C7E1EBC1C410088E4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STFCardPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STFCardPlay;
+			};
+			name = Debug;
+		};
+		A2369C7F1EBC1C410088E4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STFCardPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinbake.STFCardPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STFCardPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2369C451EBC1C410088E4C3 /* Build configuration list for PBXProject "STFCardPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2369C751EBC1C410088E4C3 /* Debug */,
+				A2369C761EBC1C410088E4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2369C771EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2369C781EBC1C410088E4C3 /* Debug */,
+				A2369C791EBC1C410088E4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2369C7A1EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2369C7B1EBC1C410088E4C3 /* Debug */,
+				A2369C7C1EBC1C410088E4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2369C7D1EBC1C410088E4C3 /* Build configuration list for PBXNativeTarget "STFCardPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2369C7E1EBC1C410088E4C3 /* Debug */,
+				A2369C7F1EBC1C410088E4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2369C421EBC1C410088E4C3 /* Project object */;
+}
