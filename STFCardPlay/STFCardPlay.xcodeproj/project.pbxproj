@@ -19,6 +19,7 @@
 		A2369C881EBC66600088E4C3 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C871EBC66600088E4C3 /* PlayingCard.m */; };
 		A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */; };
 		A2369C911EBC81D60088E4C3 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C901EBC81D60088E4C3 /* PlayVC.m */; };
+		A2783E911EC1720C00DA34AF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A2783E901EC1720C00DA34AF /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCardDeck.m; sourceTree = "<group>"; };
 		A2369C8F1EBC81D60088E4C3 /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
 		A2369C901EBC81D60088E4C3 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+		A2783E8F1EC1720C00DA34AF /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		A2783E901EC1720C00DA34AF /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */,
 				A2369C8F1EBC81D60088E4C3 /* PlayVC.h */,
 				A2369C901EBC81D60088E4C3 /* PlayVC.m */,
+				A2783E8F1EC1720C00DA34AF /* CardMatchingGame.h */,
+				A2783E901EC1720C00DA34AF /* CardMatchingGame.m */,
 			);
 			path = STFCardPlay;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				A2369C911EBC81D60088E4C3 /* PlayVC.m in Sources */,
 				A2369C521EBC1C410088E4C3 /* AppDelegate.m in Sources */,
 				A2369C4F1EBC1C410088E4C3 /* main.m in Sources */,
+				A2783E911EC1720C00DA34AF /* CardMatchingGame.m in Sources */,
 				A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */,
 				A2369C881EBC66600088E4C3 /* PlayingCard.m in Sources */,
 				A2369C821EBC1DDD0088E4C3 /* Card.m in Sources */,
