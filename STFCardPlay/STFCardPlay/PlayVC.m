@@ -106,6 +106,16 @@
     return [UIImage imageNamed:card.isChosen ? @"front" : @"back"];
 }
 
+- (IBAction)resetBtnClick:(id)sender {
+    
+    for (UIButton *cardBtn in self.cardBtns){
+        [cardBtn setTitle:@"" forState:UIControlStateNormal];
+        [cardBtn setBackgroundImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+        cardBtn.enabled = YES;
+    }
+}
+
+
 //- (void)setFlipNum:(NSUInteger)flipNum
 //{
 //    _flipNum = flipNum;

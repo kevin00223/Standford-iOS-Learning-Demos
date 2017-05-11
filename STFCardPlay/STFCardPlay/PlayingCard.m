@@ -56,11 +56,16 @@
     int score = 0;
     
     if ([otherCards count] == 1){
-        PlayingCard *otherCard = otherCards.firstObject;
-        if ([self.suit isEqualToString:otherCard.suit]) {
-            score = 1;
-        }else if(self.rank == otherCard.rank){
-            score = 4;
+//        PlayingCard *otherCard = otherCards.firstObject;
+        id card = otherCards.firstObject; // 做id类型的判断
+        if ([card isKindOfClass:[PlayingCard class]])
+        {
+            PlayingCard *otherCard = (PlayingCard *)card; //类型强转: id cast to PlayingCard *
+            if ([self.suit isEqualToString:otherCard.suit]) {
+                score = 1;
+            }else if(self.rank == otherCard.rank){
+                score = 4;
+            }
         }
     }
     
