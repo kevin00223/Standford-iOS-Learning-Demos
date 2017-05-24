@@ -20,6 +20,7 @@
 		A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */; };
 		A2369C911EBC81D60088E4C3 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2369C901EBC81D60088E4C3 /* PlayVC.m */; };
 		A2783E911EC1720C00DA34AF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A2783E901EC1720C00DA34AF /* CardMatchingGame.m */; };
+		A2783ED61ED53A5600DA34AF /* PlayingCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2783ED51ED53A5600DA34AF /* PlayingCardVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		A2369C901EBC81D60088E4C3 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
 		A2783E8F1EC1720C00DA34AF /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		A2783E901EC1720C00DA34AF /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		A2783ED41ED53A5600DA34AF /* PlayingCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardVC.h; path = ../PlayingCardVC.h; sourceTree = "<group>"; };
+		A2783ED51ED53A5600DA34AF /* PlayingCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardVC.m; path = ../PlayingCardVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				A2369C8D1EBC78760088E4C3 /* PlayerCardDeck.m */,
 				A2369C8F1EBC81D60088E4C3 /* PlayVC.h */,
 				A2369C901EBC81D60088E4C3 /* PlayVC.m */,
+				A2783ED41ED53A5600DA34AF /* PlayingCardVC.h */,
+				A2783ED51ED53A5600DA34AF /* PlayingCardVC.m */,
 				A2783E8F1EC1720C00DA34AF /* CardMatchingGame.h */,
 				A2783E901EC1720C00DA34AF /* CardMatchingGame.m */,
 			);
@@ -307,6 +312,7 @@
 				A2369C8E1EBC78760088E4C3 /* PlayerCardDeck.m in Sources */,
 				A2369C881EBC66600088E4C3 /* PlayingCard.m in Sources */,
 				A2369C821EBC1DDD0088E4C3 /* Card.m in Sources */,
+				A2783ED61ED53A5600DA34AF /* PlayingCardVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

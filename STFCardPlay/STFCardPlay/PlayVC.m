@@ -7,7 +7,6 @@
 //
 
 #import "PlayVC.h"
-#import "PlayerCardDeck.h"
 #import "Deck.h"
 #import "PlayerCardDeck.h"
 #import "Card.h"
@@ -56,7 +55,7 @@
 
 - (Deck *)createDeck
 {
-    return [[PlayerCardDeck alloc]init];
+    return nil;
 }
 
 - (IBAction)cardClickBtn:(UIButton *)sender {

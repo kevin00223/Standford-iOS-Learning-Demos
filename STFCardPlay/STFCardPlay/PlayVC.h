@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayerCardDeck.h"
 
 @interface PlayVC : UIViewController
+
+//abstract method   for subclass
+//抽象类的方法 用来返回不同类型的卡牌
+- (Deck *)createDeck;
 
 @end
